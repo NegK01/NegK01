@@ -30,3 +30,8 @@ Welcome to my GitHub profile — feel free to look around!
 ---
 <p align="right"><sub>Powered by <a href="https://github.com/anuraghazra/github-readme-stats">GitHub ReadMe Stats</a></sub></p>
 
+<div align=center>
+  
+ <img src="https://raw.githubusercontent.com/NegK01/negk01/output/snake.svg" alt="Snake animation" />
+  
+</div>
