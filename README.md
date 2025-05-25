@@ -1,16 +1,32 @@
-## Hi there 👋
+# 👋 Hey, I'm Neg!
 
-<!--
-**NegK01/NegK01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile — feel free to look around!
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+
+| <img src="https://github-readme-stats.vercel.app/api?username=negk01&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=66ffff&text_color=cccccc&icon_color=66ffff&bg_color=1a1b27&rank_icon=github" alt="negk01 GitHub stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=negk01&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=github-readme-stats,wasap,AA,test30,test06,A,prueba1&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="negk01 Top Langs" /> |
+| ------------- | ------------- |
+
+
+---
+
+## 📌 Pinned Repositories
+
+<a href="https://github.com/NegK01/NegBot">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=NegBot1&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="NegBot repo" />
+</a>
+
+<a href="https://github.com/NegK01/First-Landing-Page">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=First-Landing-Page&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="First-Landing-Page
+ repo" />
+</a>
+
+---
+
+**Thanks for stopping by!** ⭐️
+
+---
+<p align="right"><sub>Powered by <a href="https://github.com/anuraghazra/github-readme-stats">GitHub ReadMe Stats</a></sub></p>
+
