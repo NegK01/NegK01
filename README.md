@@ -15,11 +15,11 @@ Welcome to my GitHub profile — feel free to look around!
 ## 📌 Pinned Repositories
 
 <a href="https://github.com/NegK01/NegBot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=NegBot&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="NegBot repo" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=Room-Landing-Page&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="NegBot repo" />
 </a>
 
 <a href="https://github.com/NegK01/First-Landing-Page">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=First-Landing-Page&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="First-Landing-Page
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=MCP-with-GitHub-Copilot&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="First-Landing-Page
  repo" />
 </a>
 
