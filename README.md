@@ -18,8 +18,8 @@ Welcome to my GitHub profile — feel free to look around!
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=Room-Landing-Page&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="NegBot repo" />
 </a>
 
-<a href="https://github.com/NegK01/First-Landing-Page">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=MCP-with-GitHub-Copilot&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="First-Landing-Page
+<a href="https://github.com/NegK01/Fitness-For-One">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=negk01&repo=fitness-for-one&hide_border=true&theme=tokyonight&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="First-Landing-Page
  repo" />
 </a>
 
