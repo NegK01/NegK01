@@ -6,7 +6,7 @@ Welcome to my GitHub profile — feel free to look around!
 
 ## 📊 GitHub Stats
 
-| <img src="https://github-readme-stats.vercel.app/api?username=negk01&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=66ffff&text_color=cccccc&icon_color=66ffff&bg_color=1a1b27&rank_icon=github" alt="negk01 GitHub stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=negk01&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=github-readme-stats,wasap,AA,test30,test06,A,prueba1&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="negk01 Top Langs" /> |
+| <img src="https://github-readme-stats.vercel.app/api?username=negk01&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=66ffff&text_color=cccccc&icon_color=66ffff&bg_color=1a1b27&rank_icon=github" alt="negk01 GitHub stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=negk01&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=github-readme-stats&title_color=66ffff&text_color=cccccc&bg_color=1a1b27" alt="negk01 Top Langs" /> |
 | ------------- | ------------- |
 
 
