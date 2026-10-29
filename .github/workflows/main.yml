@@ -8,7 +8,7 @@ on:
 
   push:
     branches:
-    - master
+    - main
 
 jobs:
   generate:
@@ -22,7 +22,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: NegK01
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: dist/snake.svg?palette=github-dark&color_snake=#48b5aa&color_dots=#161f25,#193c3b,#22615b,#318e84,#4acbbb
 
 
       - name: push snake.svg to the output branch
