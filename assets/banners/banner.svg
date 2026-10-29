@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="title desc">
+  <title id="title">NegK01 — Kotlin · Java · C# · JavaScript</title>
+  <desc id="desc">Animated Tokyo Night banner: layered indigo shards, violet and teal chromatic lettering, a fine grid and drifting scan light.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2=".7"><stop stop-color="#0d1117"/><stop offset=".48" stop-color="#111a20"/><stop offset="1" stop-color="#102623"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#507e71" stop-opacity=".32"/><stop offset=".65" stop-color="#3b6459" stop-opacity=".1"/><stop offset="1" stop-color="#25433b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="blue" x2=".8" y2="1"><stop stop-color="#5aa19c"/><stop offset=".5" stop-color="#3b6f6c"/><stop offset="1" stop-color="#224744"/></linearGradient>
+    <linearGradient id="purple" x2=".6" y2="1"><stop stop-color="#629f8e"/><stop offset=".5" stop-color="#476e64"/><stop offset="1" stop-color="#2b4941"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#447d79"/><stop offset=".45" stop-color="#4a7065"/><stop offset="1" stop-color="#5b8e80"/></linearGradient>
+    <linearGradient id="rule"><stop stop-color="#4a7976" stop-opacity="0"/><stop offset=".2" stop-color="#4a7976"/><stop offset=".75" stop-color="#5a7e74"/><stop offset="1" stop-color="#5a7e74" stop-opacity="0"/></linearGradient>
+    <linearGradient id="light" x2="0" y2="1"><stop stop-color="#82b0a4" stop-opacity="0"/><stop offset=".5" stop-color="#82b0a4" stop-opacity=".055"/><stop offset="1" stop-color="#82b0a4" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#639c98" stroke-opacity=".065" stroke-width=".7"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 .5H4" stroke="#070c10" stroke-opacity=".13"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="18"/></clipPath>
+    <clipPath id="slice1"><rect x="260" y="115" width="680" height="17"/></clipPath>
+    <clipPath id="slice2"><rect x="260" y="166" width="680" height="13"/></clipPath>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <style>
+    .name{font-family:Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:126px;font-weight:800;letter-spacing:-5px;text-anchor:middle}
+    .lang{font-family:Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:18px;font-weight:500;letter-spacing:2px;text-anchor:middle;fill:#a6b9bc}
+    .a{animation:chromaticA 5.8s steps(1,end) infinite}.b{animation:chromaticB 5.8s steps(1,end) infinite}
+    .slice-a{animation:sliceA 5.8s steps(1) infinite;opacity:0}.slice-b{animation:sliceB 5.8s steps(1) infinite;opacity:0}
+    .scanlight{animation:sweep 7s linear infinite}.spark{animation:spark 3.5s ease-in-out infinite}.s2{animation-delay:-1.2s}.s3{animation-delay:-2.4s}
+    .pulse{animation:pulse 5s ease-in-out infinite}.dash{animation:dash 8s linear infinite}
+    @keyframes chromaticA{0%,79.9%,84.3%,100%{transform:translate(0)}80.00%{transform:translate(-6px,1px)}80.45%{transform:translate(4px,-1px)}80.90%{transform:translate(-2px,0px)}81.35%{transform:translate(5px,1px)}81.80%{transform:translate(-5px,0px)}82.25%{transform:translate(3px,-1px)}82.70%{transform:translate(-6px,1px)}83.15%{transform:translate(2px,0px)}83.60%{transform:translate(-2px,0px)}}
+    @keyframes chromaticB{0%,79.9%,84.3%,100%{transform:translate(0)}80.00%{transform:translate(7px,-1px)}80.45%{transform:translate(-4px,2px)}80.90%{transform:translate(3px,0px)}81.35%{transform:translate(-6px,-1px)}81.80%{transform:translate(5px,1px)}82.25%{transform:translate(-3px,0px)}82.70%{transform:translate(6px,-1px)}83.15%{transform:translate(-2px,1px)}83.60%{transform:translate(2px,0px)}}
+    @keyframes sliceA{0%,79.9%,84.3%,100%{opacity:0;transform:translate(0)}80.00%{opacity:1;transform:translate(17px,0px)}80.45%{opacity:0.8;transform:translate(-12px,0px)}80.90%{opacity:1;transform:translate(5px,0px)}81.35%{opacity:0.6;transform:translate(-8px,0px)}81.80%{opacity:0.9;transform:translate(14px,0px)}82.25%{opacity:0.7;transform:translate(-5px,0px)}82.70%{opacity:1;transform:translate(11px,0px)}83.15%{opacity:0.5;transform:translate(-7px,0px)}83.60%{opacity:0.8;transform:translate(4px,0px)}}
+    @keyframes sliceB{0%,79.9%,84.3%,100%{opacity:0;transform:translate(0)}80.10%{opacity:1;transform:translate(-16px,0px)}80.55%{opacity:0.8;transform:translate(10px,0px)}81.00%{opacity:1;transform:translate(-5px,0px)}81.45%{opacity:0.6;transform:translate(12px,0px)}81.90%{opacity:0.9;transform:translate(-8px,0px)}82.35%{opacity:0.7;transform:translate(6px,0px)}82.80%{opacity:1;transform:translate(-13px,0px)}83.25%{opacity:0.5;transform:translate(5px,0px)}83.70%{opacity:0.8;transform:translate(-3px,0px)}}
+    @keyframes sweep{from{transform:translateY(-100px)}to{transform:translateY(370px)}}
+    @keyframes spark{0%,100%{opacity:.22}50%{opacity:.85}}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:.9}}
+    @keyframes dash{to{stroke-dashoffset:-80}}
+    @media(prefers-reduced-motion:reduce){.a,.b,.slice-a,.slice-b,.scanlight,.spark,.pulse,.dash{animation:none}.slice-a,.slice-b{opacity:0}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <ellipse cx="615" cy="166" rx="530" ry="255" fill="url(#halo)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <!-- Faceted forms: lower left, upper right. -->
+    <g>
+      <path d="M0 340V145l65 63-22-93 89 119-12-102 75 126 67-39-68 121Z" fill="#1e3f3d"/>
+      <path d="M0 340V220l54 36 12-84 54 108 20-55 57 115Z" fill="url(#blue)"/>
+      <path d="m0 340 82-61-11-53 62 59 55-125-10 121 72-17-84 76Z" fill="url(#purple)"/>
+      <path d="m0 340 82-61 51 6-34 55Z" fill="#61a09c" opacity=".6"/>
+      <path d="m82 279-11-53 62 59 55-125-55 153Z" fill="#649789" opacity=".45"/>
+      <path d="m0 282 54-26 66 24-21 60Z" fill="#28514e" opacity=".65"/>
+      <path d="m174 217 21-75 14 45 34-29-35 78 1-44Z" fill="#447a76"/>
+      <path d="m18 183 24 17-7 41Z" fill="#4e8380"/>
+      <path d="m119 132 13 102-66-62" fill="none" stroke="#5fa9a4" stroke-opacity=".35"/>
+    </g>
+    <g>
+      <path d="M1200 0H985l48 51-77 28 101 24-27 67 85-49 15 64 38-85 32 41Z" fill="#233a34"/>
+      <path d="M1200 0h-141l-69 86 81-27-7 89 58-70 78 35Z" fill="url(#purple)"/>
+      <path d="m1200 0-87 55 9 23-58 70 24-113-98 51 69-86Z" fill="#5f9385" opacity=".55"/>
+      <path d="m1200 113-78-35 31-60 47 45Z" fill="#395d53"/>
+      <path d="m1059 0-26 51 55-16 34 43" fill="none" stroke="#7ab5a5" stroke-opacity=".3"/>
+      <path d="m1016 133-27 59-5-38-31 23 37-70-3 47Z" fill="#3f7471"/>
+      <path d="m1200 188-31-17 7 42-31-17 55 66Z" fill="#43655c"/>
+    </g>
+
+    <!-- Thin mechanical line work grounds the loose shards. -->
+    <g fill="none" stroke-width="1">
+      <path d="M24 91V25h114M1062 315h114v-66" stroke="#5b8277" opacity=".8"/>
+      <path d="M34 77V35h69M1097 305h69v-42" stroke="#487775" opacity=".7"/>
+      <path d="M236 24h204l12 12h296l12-12h204" stroke="#537270" opacity=".3"/>
+      <path d="M266 315h177l11-11h292l11 11h177" stroke="#4f6d65" opacity=".3"/>
+      <path d="M60 108h76l17 17h40M1007 245h46l16 16h65" stroke="#4b7370" opacity=".4"/>
+      <circle cx="39" cy="313" r="101" stroke="#62a09c" opacity=".16"/>
+      <circle class="dash" cx="39" cy="313" r="113" stroke="#62a09c" opacity=".2" stroke-dasharray="24 16"/>
+    </g>
+    <g fill="#5a8c89" opacity=".6"><path d="m55 55 10-10h7L62 55Zm13 0 10-10h7L75 55Zm13 0 10-10h7L88 55Z"/><path d="m1098 285 10-10h7l-10 10Zm13 0 10-10h7l-10 10Zm13 0 10-10h7l-10 10Z"/></g>
+    <g fill="#70988d"><circle class="spark" cx="287" cy="76" r="2"/><circle class="spark s2" cx="911" cy="284" r="2"/><circle class="spark s3" cx="827" cy="54" r="1.7"/><circle class="spark s2" cx="365" cy="289" r="1.5"/></g>
+    <g stroke="#4e7a78" stroke-width="1.5"><path class="spark s2" d="M247 178h12m-6-6v12"/><path class="spark" d="M938 114h12m-6-6v12"/></g>
+    <g fill="#5a7c72"><path class="pulse" d="m595 53 5-5 5 5-5 5Z"/><path d="m578 53 3-3 3 3-3 3Zm38 0 3-3 3 3-3 3Z" opacity=".45"/></g>
+
+    <!-- A crisp face over violet and teal offset layers. -->
+    <text class="name" x="600" y="189" fill="#679e8f" opacity=".25" filter="url(#glow)">NegK01</text>
+    <g class="a"><text class="name" x="596" y="185" fill="#429f98" opacity=".85">NegK01</text></g>
+    <g class="b"><text class="name" x="604" y="185" fill="#607f97" opacity=".9">NegK01</text></g>
+    <text class="name" x="600" y="185" fill="#e6edf3">NegK01</text>
+    <g clip-path="url(#slice1)"><text class="name slice-a" x="600" y="185" fill="#629592">NegK01</text></g>
+    <g clip-path="url(#slice2)"><text class="name slice-b" x="600" y="185" fill="#74ad9e">NegK01</text></g>
+
+    <path d="M322 218h556" stroke="url(#rule)" stroke-width="1.5"/>
+    <g class="lang"><text x="352.5" y="260">KOTLIN</text><text x="517.5" y="260">JAVA</text><text x="682.5" y="260">C#</text><text x="847.5" y="260">JAVASCRIPT</text></g>
+    <g fill="#4f6e66"><path d="m432 253 3-3 3 3-3 3Zm165 0 3-3 3 3-3 3Zm165 0 3-3 3 3-3 3Z"/></g>
+
+    <rect class="scanlight" width="1200" height="85" fill="url(#light)"/>
+    <rect width="1200" height="340" fill="url(#scan)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".65" stroke-width="1.5"/>
+</svg>
