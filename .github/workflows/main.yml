@@ -18,14 +18,16 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
+      - name: generate light and dark snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: NegK01
-          outputs: dist/snake.svg?palette=github-dark&color_snake=#48b5aa&color_dots=#161f25,#193c3b,#22615b,#318e84,#4acbbb
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#48b5aa&color_dots=#161f25,#193c3b,#22615b,#318e84,#4acbbb
+            dist/snake-light.svg?palette=github-light&color_snake=#1c8578&color_dots=#ebedf0,#cde8e2,#8ac8bc,#4a9f90,#237568
 
 
-      - name: push snake.svg to the output branch
+      - name: publish snake SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
